@@ -7,3 +7,7 @@ Repositório destinado ao desenvolvimento das atividades da cadeira de pós-grad
 
 #### Linear Regression
 https://github.com/lucasncabral/MachineLearning/blob/master/LinearRegression/LinearRegresionNb.ipynb
+
+
+#### Multiple Regression
+https://github.com/lucasncabral/MachineLearning/blob/master/MultipleRegression/MultipleRegressionNb.ipynb
