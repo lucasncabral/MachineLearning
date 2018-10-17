@@ -1,0 +1,31 @@
+## TALVEZ UTILIZAR ISSO
+
+df_qtdDoacoes = pd.DataFrame({"qtd. Doacoes":train["quantidade_doacoes"], "log(qtd. Doacoes + 1)":np.log1p(train["quantidade_doacoes"])})
+df_qtdDoacoes.hist(log=True)
+
+df_qtdDoadores = pd.DataFrame({"qtd. Doadores":train["quantidade_doadores"], "log(qtd. Doadores + 1)":np.log1p(train["quantidade_doadores"])})
+df_qtdDoadores.hist(log=True)
+
+df_totalReceita = pd.DataFrame({"total receita":train["total_receita"], "log(total receita + 1)":np.log1p(train["total_receita"])})
+df_totalReceita.hist(log=True)
+
+df_recursosOutros = pd.DataFrame({"recursos de outros":train["recursos_de_outros_candidatos/comites"], "log(recursos de outros + 1)":np.log1p(train["recursos_de_outros_candidatos/comites"])})
+df_recursosOutros.hist(log=True)
+
+df_recursosPessoasFisicas = pd.DataFrame({"recursos de pessoas fisicas":train["recursos_de_pessoas_fisicas"], "log(recursos de pessoas fisicas + 1)":np.log1p(train["recursos_de_pessoas_fisicas"])})
+df_recursosPessoasFisicas.hist(log=True)
+
+df_recursosPessoasJuridicas = pd.DataFrame({"recursos de pessoas juridicas":train["recursos_de_pessoas_juridicas"], "log(recursos de pessoas juridicas + 1)":np.log1p(train["recursos_de_pessoas_juridicas"])})
+df_recursosPessoasJuridicas.hist(log=True)
+
+df_recursosProprios = pd.DataFrame({"recursos proprios":train["recursos_proprios"], "log(recursos proprios + 1)":np.log1p(train["recursos_proprios"])})
+df_recursosProprios.hist(log=True)
+
+df_qtdDespesas = pd.DataFrame({"qtd. Despesas":train["quantidade_despesas"], "log(qtd. Despesas + 1)":np.log1p(train["quantidade_despesas"])})
+df_qtdDespesas.hist(log=True)
+
+df_qtdFornecedores = pd.DataFrame({"qtd. Fornecedores":train["quantidade_fornecedores"], "log(qtd. Fornecedores + 1)":np.log1p(train["quantidade_fornecedores"])})
+df_qtdFornecedores.hist(log=True)
+
+df_totalDespesas = pd.DataFrame({"total despesa":train["total_despesa"], "log(total despesa + 1)":np.log1p(train["total_despesa"])})
+df_totalDespesas.hist(log=True)
