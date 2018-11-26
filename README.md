@@ -14,3 +14,6 @@ https://github.com/lucasncabral/MachineLearning/blob/master/MultipleRegression/M
 #### (Lab3) Election Prediction
 https://github.com/lucasncabral/MachineLearning/blob/master/ElectionPrediction/ElectionPredictionNb.ipynb
 
+#### (Lab4) Election Lab - Kaggle
+https://github.com/lucasncabral/MachineLearning/blob/master/KaggleElectionPrediction/lab4previsao.ipynb
+
